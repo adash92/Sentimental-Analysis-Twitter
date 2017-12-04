@@ -1,12 +1,18 @@
 # Sentimental-Analysis-Twitter
 
 
-There are are 5 scripts to run the analysis. 
+There are are 5 scripts to run the analysis. The script have to be run in the below chronological order.
 
 Script #1 : 00_INSTALL_PACKAGES.R --> This script is required for installing all the packages required for the analysis.
+
 Script #2 : 01_NAMED_ENTITY_API_1.R --> This script collects all the data from Twitter API and finds the frequent named entities.
+
 Script #3 : 02_NAMED_ENTITY_API_2.R --> This script collects all the data from NY Times API using the above identified named entities.
+
 Script #4 : 03_SENTIMENT_ANALYSIS.R --> This script performs a sentimental analysis of the data collect from Script #2 & Script #3 and shows the results as positive and negative sentiment.
+
+#######################################################################
+#######################################################################
 
 The requirement of the above code is broadly divided into the following sub-tasks:
 
