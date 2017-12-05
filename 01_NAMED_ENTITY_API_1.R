@@ -12,7 +12,7 @@ Access_Token_Secret   <- "mkce930d9REXMOVK1ZrXgnjaJF9uQlilqcx37QWsBpDzK"
 #Connecting to Twitter to access the API
 twitteR:::setup_twitter_oauth(API_Key, API_Secret, Access_Token, Access_Token_Secret)
  
-#Extract tweets from Twitter API
+#Extract tweets from Twitter API. For testing purposes same of 1000 should be sufficient.
 Twitter_tweets <- searchTwitter(" ", n = 1000, lang = "en")
 
 #Save results into a data frame
