@@ -4,10 +4,10 @@
 ############################################################################################################
 
 # Declaring the Twitter API Setting information for authentication
-API_Key               <- "A2hyGkwBPMBQuWDXCQyH7Lzt5"
-API_Secret            <- "iohGUzXIKYTVTSDnAtykoJCzgsHLGRirj0drkimssFUfLVWxED"
-Access_Token          <- "828217764510707712-oVV4yNYANIOXpcCxy82UcBk12tpLaWe"
-Access_Token_Secret   <- "mkce930d9REXMOVK1ZrXgnjaJF9uQlilqcx37QWsBpDzK"
+API_Key               <- "*****"
+API_Secret            <- "*****"
+Access_Token          <- "*****"
+Access_Token_Secret   <- "*****"
 
 #Connecting to Twitter to access the API
 twitteR:::setup_twitter_oauth(API_Key, API_Secret, Access_Token, Access_Token_Secret)
